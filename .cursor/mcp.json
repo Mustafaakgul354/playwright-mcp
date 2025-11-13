@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": ["@playwright/mcp@latest"],
+      "env": {
+        "HTTP_PROXY": "http://brd-customer-hl_b4157da4-zone-residential_proxy1:rsx9x5u7x8fq@brd.superproxy.io:33335",
+        "HTTPS_PROXY": "http://brd-customer-hl_b4157da4-zone-residential_proxy1:rsx9x5u7x8fq@brd.superproxy.io:33335"
+      }
+    }
+  }
+}
